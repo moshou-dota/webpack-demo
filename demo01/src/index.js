@@ -1,1 +1,2 @@
-document.body.innerHTML = "<h1>Hello Webpack</h1>"
+const text = () => "<h1>Hello Webpack!!</h1>"
+document.body.innerHTML = text()
